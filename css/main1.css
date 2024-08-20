@@ -1,0 +1,1289 @@
+#wrap{
+    width: 100%;
+    min-width: 400px;
+}
+#header{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+#header .logo{
+    position: absolute;
+    top: 10%;
+    right: 5px;
+    width: 100%;
+    font-size: 0;
+}
+#header .logo a{
+    display: block;
+    width: 128px;
+    height: 48px;
+    background: url(../img/logo-top.png) no-repeat center center / 100% auto;
+    margin: 0 auto;
+}
+#header .util{
+    position: relative;
+    background-color: #a0d269;
+    float: right;
+    width: 100%;
+    height: 40px;
+}
+#header .util .util1{
+    margin-top: 10px;
+    display: inline-blkock;
+    margin-left: px;
+    padding-left: 0px;
+    float: right;
+    background-color: bue;
+    transform: translateX(-200%);
+}
+#header .util .util2{
+    margin-top: 10px;
+    display: inline-blkock;
+    margin-left: px;
+    padding-left: 10px;
+    float: right;
+    background-color: bue;
+    transform: translateX(-200%);
+}
+#header .util .util3{
+    margin-top: 10px;
+    display: inline-blkock;
+    margin-left: px;
+    padding-left: 25px;
+    float: right;
+    background-color: bue;
+    transform: translateX(-200%);
+}
+#header .util li a{
+    color: white;
+    font-size: 12px;
+    
+}
+#header .util li a:hover{
+    color: green
+}
+#header .openM{
+    position: absolute;
+    top: 0px; right: 0;
+}
+#header .openM a{
+    display: block;
+    width: 55px; height: 55px;
+    background: url(../img/free-icon-font-menu-burger-3917762.png) no-repeat center center / 26px auto;
+    font-size: 0;
+    margin: 0 auto;
+}
+
+#header .menu .closeM{
+    display: none;
+    width: 55px; height: 55px;
+    font-size: 0;
+    background: #fff url(../img/btn_menu_close.gif) no-repeat center center / 20px auto;
+}
+#header .menu{
+    width: 100%;
+    position: absolute;
+    top: 32px; left: 0;
+    z-index: 100;
+}
+#header .menu .gnb{
+    width: 850px;
+    background-color: re;
+    display: flex;
+    margin: 0 auto;
+}
+#header .menu .gnb .depth11:hover{
+    color: green;
+}
+#header .menu .gnb .depth12:hover{
+    color: green;
+}
+#header .menu .gnb .depth13:hover{
+    color: green;
+}
+#header .menu .gnb .depth14:hover{
+    color: green;
+}
+#header .menu .gnb .depth15:hover{
+    color: green;
+}
+#header .menu .gnb .depth16:hover{
+    color: green;
+}
+#header .menu .gnb .depth2{
+    display: none;
+}
+/* menu */
+
+
+
+
+
+
+
+
+
+/* header */
+#mainVisual{
+    position: relative;
+}
+#mainVisual .main img{
+    width: 100%; height: auto;
+}
+#mainVisual .main .pc{
+    display: none;
+}
+#mainVisual .main .tab{
+    display: none;
+}
+
+/* main */
+
+
+/* cal */
+#container .calendar1{
+    position: relative;
+    margin: 0 auto;
+    width: 330px;
+    height: 400px;
+    margin-top: 30px;
+}
+#container .calendar1 .ca1{
+    font-size: 38px;
+    text-align: center;
+    margin-right: 5px;
+} 
+#container .calendar1 h3{
+    font-size: 20px;
+}
+#container .calendar1 h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#container .calendar2{
+    position: relative;
+    margin: 0 auto;
+    width: 330px;
+    height: 400px;
+    margin-top: 30px;
+}
+#container .calendar2 .ca2{
+    font-size: 38px;
+    background-color: lue;
+    text-align: center;
+}
+#container .calendar2 h3{
+    font-size: 20px;
+}
+#container .calendar2 h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*#container .calendar1 .ca1:hover{
+    border: 2px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 50px 10px 50px; 
+        background-color: white; */
+
+#container .calendar1 .ca1 .td11:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td12:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td13:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td14:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td15:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td16:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td17:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td18:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td19:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td110:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td111:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td112:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td113:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td114:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td115:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td116:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td117:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td118:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td119:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td120:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td121:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td122:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td123:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td124:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td125:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td126:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td127:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td128:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td129:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td130:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px; 
+        color: green;
+}
+#container .calendar1 .ca1 .td131:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td21:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td22:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td23:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td24:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td25:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td26:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td27:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td28:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td29:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td210:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td211:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td212:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td213:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td214:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td215:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td216:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td217:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td218:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td219:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td220:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td221:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td222:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td223:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td224:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td225:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td226:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td227:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td228:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td229:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td230:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+#container .calendar2 .ca2 .td231:hover{
+    border: 1px solid rgb(72, 94, 72);
+        border-radius: 10px;
+        color: green;
+}
+
+
+
+#container .course1{
+    position: relative;
+    width: 330px;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 90px;
+    border: 1px solid black;
+}
+#container .course1 h3{
+    position: absolute;
+    left: 30px; top: -20px;
+}
+#container .course1 .velley .velley1 img{
+    position: absolute;
+    width: 210px; height: 265px;
+    left: 60px; top: 40px;
+}
+#container .course1 .velley .left1 img{
+    position: absolute;
+    width: 50; height: 60px;
+    left: 0px; top: 150px;
+}
+#container .course1 .velley .right1 img{
+    position: absolute;
+    width: 50; height: 60px;
+    top: 150px; 
+    left: 270px;
+}
+#container .course1 p{
+    position: absolute;
+    text-align: center;
+    left: 140px;
+    top: 320px;
+}
+#container .course1 p:hover{
+    color: green;
+}
+
+
+#container .course2{
+    position: relative;
+    width: 330px;
+    height: 360px;
+    margin: 0 auto;
+    border-radius: 30px;
+    margin-top: 90px;
+    border: 1px solid black;
+}
+#container .course2 h3{
+    position: absolute;
+    left: 30px; top: -20px;
+}
+#container .course2 .Lake .Lake1 img{
+    position: absolute;
+    width: 210px; height: 265px;
+    left: 60px; top: 40px;
+}
+#container .course2 .Lake .left2 img{
+    position: absolute;
+    width: 50; height: 60px;
+    left: 0px; top: 150px;
+}
+#container .course2 .Lake .right2 img{
+    position: absolute;
+    width: 50; height: 60px;
+    top: 150px; 
+    left: 270px;
+}
+#container .course2 p{
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    left: 140px;
+    top: 320px;
+}
+#container .course2 p:hover{
+    color: green;
+}
+/* 코스 끝 */
+/* 공지시작 */
+#container .news1{
+    position: relative;
+    padding-top: 50px;
+    width: 360px;
+    height: 240px;
+    margin: 0 auto;
+}
+#container .news1 h4{
+    font-size: 20px;
+}
+#container .news1 .hi11{
+    background-color: black;
+    width: 360px;
+    height: 2px;
+}
+#container .news1 li{
+    margin-top: 20px;
+}
+#container .news1 li:hover{
+    color: green;
+}
+#container .news2{
+    position: relative;
+    width: 360px;
+    height: 240px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+#container .news2 h4{
+    font-size: 20px;
+}
+#container .news2 .hi21{
+    background-color: black;
+    width: 360px;
+    height: 2px;
+}
+#container .news2 li{
+    margin-top: 20px;
+}
+#container .news2 li:hover{
+    color: green;
+}
+#container .span{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 60px;
+    background-color: black;
+    margin-top: 30px;
+}
+/* 공지 끝 */
+
+/* con끝 */
+
+
+
+
+#footer{
+    background-color: hotink;
+    position: relative;
+    padding-top: 10px;
+    width: 360px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#footer .fot1{
+    font-size: 14px;
+}
+#footer .fot2{
+    font-size: 14px;
+    padding-top: 20px;
+    bottom: 20px;
+}
+#footer .flogo {
+    width: 75px;
+    height: 75px;
+    background-color: ble;
+    background: url(../img/logo.PNG) no-repeat center center/ 75px auto;
+    font-size: 0;
+    margin-top: 20px;
+    position: absolute;
+    top: 105px;
+}
+#footer .icon img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+    top: 100px;
+    margin-top: 40px;
+}
+
+/* 모바일 끝*/ 
+
+
+@media all and (min-width:330px){
+    #mainVisual .main .tab{
+        display: none;
+    }
+    #mainVisual .main .mobile{
+        display: block;
+    }
+    #mainVisual .main .pc{
+        display: none;
+    }
+    #header .logo a{
+        width: 150px;
+        height: 60px;
+    }
+    #header .util{
+        display: none;
+    }
+    #header .menu{
+        display: none;
+    }
+    } 
+
+
+@media all and (min-width:550px){
+    #mainVisual .main .tab{
+        display: none;
+    }
+    #mainVisual .main .mobile{
+        display: block;
+    }
+    #mainVisual .main .pc{
+        display: none;
+    }
+    #header .logo a{
+        width: 150px;
+        height: 60px;
+    }
+    #header .util{
+        display: none;
+    }
+    #header .menu{
+        display: none;
+    }
+    } 
+
+
+@media all and (min-width:850px){
+    #mainVisual .main .tab{
+    display: block;
+}
+
+#mainVisual .main .mobile{
+    display: none;
+}
+#mainVisual .main .pc{
+    display: none;
+}
+
+#header .logo{
+    top: 5px;
+}
+#header .menu{
+    width: 850px;
+    height: 70px;
+    top: 77px; right: 0px;
+    display: block;
+    background-color: blu;
+    position: relative;
+    margin: 0 auto;
+}
+#header .menu .gnb{
+    text-align: center;
+    width: 850px;
+    height: 50px;
+    background-color: rd;
+    display: block;
+}
+#header .menu .gnb .depth11{
+    width: 150px;
+    background-color: re;
+    position: absolute;
+    right: 420px;
+    bottom: 55px;
+}
+#header .menu .gnb .depth12{
+    width: 150px;
+    background-color: re;
+    position: absolute;
+    right: 320px;
+    bottom: 55px;
+}
+#header .menu .gnb .depth13{
+    width: 150px;
+    background-color: re;
+    position: absolute;
+    right: 240px;
+    bottom: 55px;
+}
+#header .menu .gnb .depth14{
+    width: 150px;
+    background-color: re;
+    position: absolute;
+    right: 180px;
+    bottom: 55px;
+}
+#header .menu .gnb .depth15{
+    width: 150px;
+    background-color: re;
+    position: absolute;
+    right: 90px;
+    bottom: 55px;
+}
+#header .menu .gnb .depth16{
+    width: 150px;
+    background-color: re;
+    position: absolute;
+    right: -0px;
+    bottom: 55px;
+}
+#header .menu .gnb .depth1{
+    display: block;
+    color: black;
+    font-size: 16px;
+    background-color: rde;
+}
+#header .menu .gnb .depth2{
+    display: none;
+}
+
+#header .util{
+    display: block;
+}
+#header .logo a{
+    width: 150px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+#header{
+height: 120px;
+position: relative;
+}
+
+#header .openM{
+    display: none;
+}
+
+#container .calendar{
+    width: 760px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+}
+#container .calendar1{
+    width: 350px;
+    height: 415px;
+    margin-top: 50px;
+    right: 9px;
+}
+#container .calendar1 .ca1{
+    font-size: 42px;
+    text-align: center;
+    margin-right: 15px;
+} 
+#container .calendar1 h3{
+    font-size: 20px;
+}
+#container .calendar1 h2{
+    font-size: 60px;
+}
+#container .calendar2{
+    width: 380px;
+    height: 415px;
+    margin-top: 50px;
+    left: 20px;
+}
+#container .calendar2 .ca2{
+    font-size: 42px;
+    text-align: center;
+} 
+#container .calendar2 h3{
+    font-size: 20px;
+}
+#container .calendar2 h2{
+    font-size: 60px;
+}
+
+
+
+
+
+
+/* 코스 시작 */
+#container .course{
+    position: relative;
+    width: 760px;
+    height: 550px;
+    display: flex;
+    margin: 0 auto;
+}
+#container .course1{
+    left:px;
+    width: 370px;
+    height: 420px;
+    position: absolute;
+    margin-right: 20px;
+}
+#container .course1 h3{
+    font-size: 22px;
+    top: -26px;
+}
+#container .course1 .velley .velley1 img{
+    width: 250px; height: 305px;
+}
+#container .course1 .velley .left1 img{
+    width: 70px; height: 90px;
+}
+#container .course1 .velley .right1 img{
+    width: 70px; height: 90px;
+    left: 300px;
+}
+#container .course1 p{
+    font-size: 20px;
+    top: 360px;
+}
+#container .course2{
+    position: absolute;
+    width: 370px;
+    height: 420px;
+    left: 390px;
+}
+#container .course2 h3{
+    font-size: 22px;
+    top: -26px;
+}
+#container .course2 .Lake .Lake1 img{
+    width: 250px; height: 305px;
+}
+#container .course2 .Lake .left2 img{
+    width: 70px; height: 90px;
+}
+#container .course2 .Lake .right2 img{
+    width: 70px; height: 90px;
+    left: 300px;
+}
+#container .course2 p{
+    font-size: 20px;
+    top: 360px;
+    left: 160px;
+}
+/* 코스 끝 */
+
+#container .news{
+    margin: 0 auto;
+    width: 760px;
+    height: 300px;
+    display: flex;
+    background-color: rd;
+    position: relative;
+}
+#container .news1{
+    right: 390px;
+    background-color: ble;
+    width: 370px;
+    height: 250px;
+    position: absolute;
+}
+#container .news1 h4{
+    font-size: 24px;
+}
+#container .news1 li{
+    margin-top: 20px;
+}
+#container .news2{
+    right: 0px;
+    background-color: blu;
+    width: 370px;
+    height: 250px;
+    position: absolute;
+}
+#container .news2 h4{
+    font-size: 24px;
+}
+#container .news2 li{
+    margin-top: 20px;
+}
+
+
+
+#container .span{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 300px;
+}
+
+#footer{
+    width: 760px;
+    background-color: rd;
+    position: relative;
+
+
+}
+#footer .fot1{
+    font-size: 12px;
+    position: absolute;
+    margin-left: 409px;
+    margin-top: 73px;
+    background-color: blu;
+}
+#footer .fot2{
+    font-size: 12px;
+    position: absolute;
+    background-color: rd;
+    right: 80px; margin-bottom: 170px;
+}
+
+#footer .icon img{
+    width: 45px;
+    height: 45px;
+}
+
+#footer .icon .icon4{
+    right: 295px;
+    position: absolute;
+    bottom: 95px;
+}
+#footer .icon .icon3{
+    right: 235px;
+    position: absolute;
+    bottom: 95px;
+}
+#footer .icon .icon2{
+    right: 175px;
+    position: absolute;
+    bottom: 95px;
+}
+#footer .icon .icon1{
+    right: 115px;
+    position: absolute;
+    bottom: 95px;
+}
+#footer .flogo{
+    width: 150px;
+    height: 150px;
+    background: url(../img/logo.PNG) no-repeat center center/ 150px auto;
+    left:30px;
+    background-color: bue;
+    top: 15px;
+}
+
+}
+
+/* 코스 끝 */
+
+
+
+
+
+
+@media all and (min-width:1200px){
+    #mainVisual .main .tab{
+        display: none;
+    }
+    #mainVisual .main .mobile{
+        display: none;
+    }
+    #mainVisual .main .pc{
+        display: block;
+    }
+    
+    #header .util li a{
+        color: white;
+        font-size: 15px;
+    }
+    #header .menu .gnb .depth11{
+        font-size: 20px;
+        right: 360px;
+    }
+    #header .menu .gnb .depth12{
+        font-size: 20px;
+        right: 230px;
+    }
+    #header .menu .gnb .depth13{
+        font-size: 20px;
+        right: 120px;
+    }
+    #header .menu .gnb .depth14{
+        font-size: 20px;
+        right: 30px;
+    }
+    #header .menu .gnb .depth15{
+        font-size: 20px;
+        right: -90px;
+    }
+    #header .menu .gnb .depth16{
+        font-size: 20px;
+        right: -210px;
+
+    }
+    #container .calendar{
+        width: 1200px;
+        height: 670px;
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+    }
+    #container .calendar1{
+        width: 600px;
+        height: 565px;
+        margin-top: 50px;
+        left: 0px;
+    }
+    #container .calendar1 .ca1{
+        font-size: 65px;
+        background-color: ble;
+        text-align: center;
+        margin-right: 5px;
+    } 
+    #container .calendar1 h3{
+        font-size: 25px;
+    }
+    #container .calendar1 h2{
+        font-size: 65px;
+    }
+    #container .calendar2{
+        width: 600px;
+        height: 565px;
+        margin-top: 50px;
+        left: 40px;
+    }
+    #container .calendar2 .ca2{
+        font-size: 65px;
+        text-align: center;
+    } 
+    #container .calendar2 h3{
+        font-size: 25px;
+    }
+    #container .calendar2 h2{
+        font-size: 65px;
+    }
+
+    #container .course{
+        background-color: blu;
+        width: 1200px;
+        height: 800px;
+    }
+    #container .course1{
+        width: 580px;
+        height: 630px;
+    }
+    #container .course1 h3{
+        font-size: 25px;
+        top: -30px;
+    }
+    #container .course1 .velley .velley1 img{
+        width: 360px; height: 400px;
+        right: 50px; margin-left: 50px;
+        margin-top: 50px;
+        background-color: yelow;
+    }
+    #container .course1 .velley .left1 img{
+        width: 90px; height: 110px;
+        background-color: yelow;
+        margin-top: 90px;
+    }
+    #container .course1 .velley .right1 img{
+        width: 90px; height: 110px;
+        left: 490px;
+        margin-top: 90px;
+        background-color: yellw;
+    }
+    #container .course1 p{
+        font-size: 24px;
+        top: 550px;
+        margin-left: 100px;
+        background-color: yelow;
+    }
+
+
+    #container .course{
+        background-color: pnk;
+        width: 1200px;
+        height: 800px;
+    }
+    #container .course2{
+        width: 580px;
+        height: 630px;
+        margin-left: 230px ;
+    }
+    #container .course2 h3{
+        font-size: 25px;
+        top: -30px;
+    }
+    #container .course2 .Lake .Lake1 img{
+        width: 360px; height: 400px;
+        right: 50px; margin-left: 50px;
+        margin-top: 50px;
+        background-color: yelow;
+    }
+    #container .course2 .Lake .left2 img{
+        width: 90px; height: 110px;
+        background-color: yelow;
+        margin-top: 90px;
+    }
+    #container .course2 .Lake .right2 img{
+        width: 90px; height: 110px;
+        left: 490px;
+        margin-top: 90px;
+        background-color: yellw;
+    }
+    #container .course2 p{
+        font-size: 24px;
+        top: 550px;
+        margin-left: 100px;
+        background-color: yellw;
+    }
+
+    #container .news{
+        width: 1200px;
+        height: 400px;
+    }
+    #container .news1{
+        margin-right: 210px;
+        width: 600px;
+        height: 350px;
+    }
+    #container .news1 h4{
+        font-size: 35px;
+    }
+    #container .news1 li{
+    margin-top: 30px;
+    width: 600px;
+    font-size: 20px;
+}
+#container .news1 .hi11{
+    width: 580px;
+}
+#container .news2{
+    width: 600px;
+    height: 350px;
+}
+#container .news2 h4{
+    font-size: 35px;
+}
+#container .news2 li{
+margin-top: 30px;
+font-size: 20px;
+}
+#container .news2 .hi21{
+    width: 580px;
+}
+#container .span{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    margin-top: 400px;
+}
+#footer{
+    width: 1200px;
+    background-color: rd;
+}
+    #footer .fot1{
+        font-size: 16px;
+        margin-left: 700px;
+        top: 50px;
+    }
+    #footer .fot2{
+        font-size: 16px;
+        right: 140px;
+        background-color: yelow;
+        top: 50px;
+    }
+    #footer .icon img{
+        width: 60px;
+        height: 60px;
+    }
+    #footer .icon .icon4{
+        right: 429px;
+        bottom: 30px;
+    }
+    #footer .icon .icon3{
+        right: 349px;
+        bottom: 30px;
+    }
+    #footer .icon .icon2{
+        right: 269px;
+        bottom: 30px;
+    }
+    #footer .icon .icon1{
+        right: 189px;
+        bottom: 30px;
+    }
+    #footer .flogo{
+        width: 230px;
+        height: 230px;
+        background: url(../img/logo.PNG) no-repeat center center/ 250px auto;
+        left:30px;
+        background-color: ble;
+        top: 15px;
+    }
+
+
+}
